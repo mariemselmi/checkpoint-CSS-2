@@ -1,0 +1,276 @@
+body {
+    font-family: helvetica;
+}
+
+/*nav bar css*/
+.top {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0% 10%;
+    
+}
+
+.ul {
+    font-family: helvetica;
+    font-size: 0.9rem;
+    font-weight: 100;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    margin-top: 10px;
+    
+    }
+/*nav items*/
+.about {
+
+    color: #00b39b;
+    margin: 10px;
+    margin-left: 190px;
+    
+}
+.career, .departments {
+    color: rgba(139, 138, 138, 0.63);
+    margin : 10px;
+
+}
+/*nav links*/
+a.nav_link:link, a.nav_link:visited{
+    color: #00b39b;
+    text-decoration: none;
+}
+a.nav_link2:link, a.nav_link2:visited{
+    color: rgba(139, 138, 138, 0.63);
+    text-decoration: none;
+}
+a.nav_link2:hover{
+    color: #00b39b;
+}
+/*logo*/
+.logo {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/*header*/
+.header {
+    padding: 10px;
+
+    margin: 0% 10%;
+}
+
+.lead-logo {
+    margin-left: 47%;
+    margin-right: 50%;
+    margin-top: 4%;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 19px;
+    grid-template-areas: "header header";
+    margin-right: 40px;
+
+}
+.grid-item-1 {
+    grid-area: header;
+}
+.grid-item {
+    color: rgba(82, 82, 82, 0.877);
+    line-height: 30px;
+    margin-top: 0;
+}
+.title {
+    display: block;
+    font-size: 1.8rem;
+    color: #00b39b;
+    font-family: helvetica;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+/*green box*/
+.for-patients {
+    width: 430px;
+    height: 340px;
+    padding: 10px;
+    display: block;
+    background-color: #36ccb8dc;
+    border-radius: 11px;
+    color: white;
+    overflow: hidden;
+
+}
+.patients-text {
+    margin-left: 20px;
+}
+.patient-sub {
+    font-weight: 100;
+    font-size: 25px;
+}
+.bottom {
+    display: flex;
+}
+.patients-img {
+    margin-left: 20.5px;
+}
+
+/*blue box*/
+.for-doctors {
+    width: 430px;
+    height: 340px;
+    padding: 10px;
+    display: block;
+    background-color: rgba(58, 111, 209, 0.911);
+    border-radius: 11px;
+    color: white;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.doctors-img {
+    margin-left: 140px;
+  
+}
+.two-boxes {
+    display: flex;
+    margin: 0% 10%;
+    margin-top: 20px;
+}
+/*section*/
+.title2 {
+ 
+    font-size: 1.8rem;
+    color: #00b39b;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-right: 20px;
+   
+}
+.global {
+    align-items: flex-end;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.stars {
+    width: 67%;
+    margin-left: 20px;
+}
+.section {
+    display: flex;
+     margin: 0% 10%;
+}
+/*platform*/
+.platform {
+    display: flex;
+    max-width: 100%;
+    height: 450px;
+    background-color: #e1fcf9c7;
+    padding: 30px;
+    margin: 0!important;
+    overflow: hidden;
+
+}
+
+.plat-title {
+    font-size: 1.8rem;
+    color: #00b39b;
+    font-family: helvetica;
+    font-weight: 100;
+}
+.plat-p {
+    color: rgba(82, 82, 82, 0.877);
+    line-height: 30px;
+    margin-top: 0;
+}
+.text1 {
+    margin: 0 9%;
+    width: 40%;
+}
+/*cards*/
+.specialties {
+    display: flex;
+    flex-wrap: wrap;
+}
+.specialties-1, .specialties-2 {
+    display: flex;
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    padding: 1.6%;
+    margin-left: 0;
+    border-radius: 7px;   
+}
+.specialties-2 {
+    margin-left: 20px;
+
+    
+}
+.content{
+    text-align: center;
+}
+
+.title-cards {
+    color: #00b39b;
+    font-weight: 100;
+}
+.countries {
+    color: rgba(82, 82, 82, 0.877);
+    font-size: 14.4px;
+    text-align: center;
+}
+/*improve*/
+.change {
+    display: block;
+    font-size: 0.9rem;
+    color: rgba(82, 82, 82, 0.877);
+    font-family: helvetica;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 19%;
+    margin-right: 23%;
+}
+/*the pictures*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-container {
+    padding: 2px;
+}
+h4 {
+    margin-left: 29px;
+    font-size: 1rem;
+    color: rgb(59, 56, 56);
+    font-weight: 300;
+}
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-bottom: 80px;
+
+}
+/*footer*/
+.p-footer {
+    font-size: 13px;
+    color:  rgba(82, 82, 82, 0.877);
+    text-align: center;
+    padding: 10px;
+}
